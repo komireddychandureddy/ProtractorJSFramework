@@ -1,0 +1,25 @@
+{
+  "name": "ProtractorTutorial",
+  "version": "1.0.0",
+  "description": "Protractor Javascript jasmine",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  },
+  "scripts": {
+    "wd-update": "./node_modules/.bin/webdriver-manager update",
+    "wd-start": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_modules/.bin/protractor configuration.js",
+    "start": "npm run wd-update &&npm run wd-start &&npm run protractor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komireddychandureddy/ProtractorJSFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komireddychandureddy/ProtractorJSFramework/issues"
+  },
+  "homepage": "https://github.com/komireddychandureddy/ProtractorJSFramework#readme"
+}

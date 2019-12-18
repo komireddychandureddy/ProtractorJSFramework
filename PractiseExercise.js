@@ -14,7 +14,7 @@ describe('Protractor Alert steps', function() {
 		})
 	}
 	it('Open NonAngular js website Alerts',function() {
-
+		browser.waitForAngularEnabled(false);
 				browser.get("https://qaclickacademy.github.io/protocommerce/");
 
 				element(by.name("name")).sendKeys("Mystudents");
@@ -56,6 +56,6 @@ describe('Protractor Alert steps', function() {
 							expect(x).toBe(2);
 						})
 
-			})
+			});
 
-})
+});
