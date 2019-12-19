@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Protractor Javascript jasmine",
   "dependencies": {
-    "protractor": "^5.4.2"
+    "protractor": "^5.4.2",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7"
   },
   "scripts": {
     "wd-update": "./node_modules/.bin/webdriver-manager update",
     "wd-start": "./node_modules/.bin/webdriver-manager start",
-    "protractor": "./node_modules/.bin/protractor configuration.js",
+    "protractor": "./node_modules/.bin/protractor configuaration.js",
     "start": "npm run wd-update &&npm run wd-start &&npm run protractor"
   },
   "repository": {
