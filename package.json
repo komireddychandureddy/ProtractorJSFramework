@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Protractor Javascript jasmine",
   "dependencies": {
-    "protractor": "^5.4.2",
+    "protractor": "^5.4.4",
     "jasmine-data-provider": "^2.2.0",
     "protractor-jasmine2-html-reporter": "^0.0.7"
   },
